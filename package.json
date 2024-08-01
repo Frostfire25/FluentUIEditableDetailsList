@@ -36,8 +36,6 @@
     "cpx": "^1.5.0",
     "file-saver": "^2.0.2",
     "office-ui-fabric-react": "^7.0.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
     "react-toastify": "^7.0.4",
     "typescript": "^4.3.5",
@@ -52,7 +50,9 @@
     "just-stack-react": "^1.0.0",
     "marked": ">=4.0.10",
     "nth-check": ">=2.0.1",
-    "tar": ">=6.1.9"
+    "tar": ">=6.1.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
