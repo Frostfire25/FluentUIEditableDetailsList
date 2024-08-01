@@ -159,7 +159,7 @@ const AddRowPanel = (props: Props) => {
                     />);
                     break;
                 case EditControlType.DateTime:
-                    tmpRenderObj.push(
+                    tmpRenderObj.push(<div>
                         <Stack key={item.key} tokens={{ childrenGap: 8 }}>
                             <DatePicker
                                 strings={DayPickerStrings}
@@ -176,6 +176,7 @@ const AddRowPanel = (props: Props) => {
                                 onChange={(event, time: Date) => { onCellTimeChange(time, item) }}
                             />
                         </Stack>
+                    </div>
                     );
                     break;
                 default:
